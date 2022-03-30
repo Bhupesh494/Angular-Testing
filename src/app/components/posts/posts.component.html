@@ -1,0 +1,4 @@
+<div *ngFor="let post of posts">
+  <div>{{ post | json }}</div>
+  <button (click)="delete(post)">Delete</button>
+</div>

@@ -1,0 +1,9 @@
+method you can use in spec or it are
+  - fail()
+  - success()
+  - pendings() or add prefix x to describe or it
+
+Import termnologies
+1. spyOn:
+      - spyOn(loggerService, 'log')
+      - spyOn(loggerService, 'log').and.callThrough();
